@@ -1,0 +1,6 @@
+bread
+mushrooms
+avocado
+banana
+joghurt
+milk
