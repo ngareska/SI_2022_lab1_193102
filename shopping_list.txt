@@ -1,5 +1,5 @@
 bread x2
-mushrooms x4
+mushrooms x5
 avocado x1
 banana x1
 joghurt x2
