@@ -1,6 +1,6 @@
-bread
-mushrooms
-avocado
-banana
-joghurt
-milk
+bread x2
+mushrooms x4
+avocado x1
+banana x1
+joghurt x2
+milk x3
