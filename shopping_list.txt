@@ -3,4 +3,4 @@ mushrooms x5
 avocado x1
 banana x1
 joghurt x2
-milk x3
+milk x4
