@@ -1,6 +1,7 @@
 bread x2
 mushrooms x5
 avocado x1
-banana x1
+apple x1
 joghurt x2
 milk x4
+
