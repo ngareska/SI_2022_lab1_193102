@@ -1,0 +1,100 @@
+4. git clone https://github.com/ngareska/SI_2022_lab1_193102.git
+5. git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+6. git add shopping_list.txt
+git commit -m "Add quantities to the items."
+7. git branch branch1 - kreiranje prva granka
+git branch branch2 - kreiranje vtora granka
+8. git push --all origin
+commit 57e5f447cfd2dec2ccd3f78d79ea54f11b13f266 (HEAD -> master, branch2, branch1)
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:35:25 2022 +0200
+
+    Add quantities to the items.
+
+commit 4f064538902a8b3d1ebf830f925c21b0480e5f42
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:33:49 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 46cbfc3db07e235181f0f6a50f2dc1fa8cda2d87 (origin/master, origin/HEAD)
+Author: Nikolina Gareska <100225205+ngareska@users.noreply.github.com>
+Date:   Sun Apr 10 19:30:15 2022 +0200
+
+    Initial commit
+
+9. git push --all origin
+10. git checkout branch1
+11. git add shopping_list.txt
+git commit -m "Change quantity of item #5"
+12. git checkout master
+13. git add shopping_list.txt
+git commit -m "Change quantity of item #2"
+14. git push --all origin
+15. git checkout branch2
+16. git add shopping_list.txt
+git commit -m "Modify item #4"
+17. git log
+commit 2915586ce776105f6abd865993d89515b0bbbc73 (HEAD -> branch2)
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:44:27 2022 +0200
+
+    Modify item #4
+
+commit 57e5f447cfd2dec2ccd3f78d79ea54f11b13f266 (origin/branch2)
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:35:25 2022 +0200
+
+    Add quantities to the items.
+
+commit 4f064538902a8b3d1ebf830f925c21b0480e5f42
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:33:49 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 46cbfc3db07e235181f0f6a50f2dc1fa8cda2d87
+Author: Nikolina Gareska <100225205+ngareska@users.noreply.github.com>
+Date:   Sun Apr 10 19:30:15 2022 +0200
+
+    Initial commit
+
+
+18. git add shopping_list.txt
+git commit --amend -m "Modify item #4 and add item #6"
+19. git log
+commit f55a6a963a9d9864da576b28a7a75418f5f5c0fe (HEAD -> branch2)
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:44:27 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 57e5f447cfd2dec2ccd3f78d79ea54f11b13f266 (origin/branch2)
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:35:25 2022 +0200
+
+    Add quantities to the items.
+
+commit 4f064538902a8b3d1ebf830f925c21b0480e5f42
+Author: ngareska <nikolina.gareska@gmail.com>
+Date:   Sun Apr 10 19:33:49 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 46cbfc3db07e235181f0f6a50f2dc1fa8cda2d87
+Author: Nikolina Gareska <100225205+ngareska@users.noreply.github.com>
+Date:   Sun Apr 10 19:30:15 2022 +0200
+
+    Initial commit
+20. git checkout master
+git merge branch1
+21. git merge branch2
+git merge branch2
+Auto-merging shopping_list.txt
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+-Go brisham mleko odnosno brisham se osven nego pod HEAD i prifakjam changes od master
+git add shopping_list.txt
+git commit -m "Fixed"
