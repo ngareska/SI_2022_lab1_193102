@@ -98,3 +98,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 -Go brisham mleko odnosno brisham se osven nego pod HEAD i prifakjam changes od master
 git add shopping_list.txt
 git commit -m "Fixed"
+22. git add 193102.txt, git commit -m "Add docs"
+23. git push origin master
+git push origin branch1
+git push origin branch2
